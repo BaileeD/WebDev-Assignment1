@@ -1,0 +1,150 @@
+/*Style for links within the articles. Links visited and hovered are justified by different colours.*/
+a {
+font-family: Arial;
+font-size:25pt;
+font-style:underline;
+}
+
+a:link {
+color:#0000ff;
+}
+
+a:visited {
+color:#0000ff;
+}
+
+a:hover {
+color:red;
+}
+
+a:active {
+color:red;
+}
+
+/*Below is the css code for the header. It specifies the size of the header as well as splitting it into 2 for the logo and the title.*/
+header {
+display:block;
+position:relative;
+margin:10px;
+background:#A9719B;
+height:150px;
+width:99.85%;
+}
+
+h1 img {
+position:absolute;
+height:150px;
+width:88%;
+top:12px;
+bottom:0px;
+right:0px;
+}
+
+header img {
+position:absolute;
+left:0px;
+top:0px;
+right:0px;
+bottom:0px;
+height:150px;
+width:150px;
+}
+
+/*The below styling is for the navigation area: nav. This css code represents the navigation pane size, buttons, button background and links formatting.*/
+nav {
+position:absolute;
+float:left;
+width:250px;
+height:100%;
+left:18px;
+top:160px;
+display: block;
+background:#A9719B;
+text-align:left;
+}
+
+nav dt {
+float:left;
+width:220px;
+height:57px;
+background-image:url('images/ButtonFinalBlue.png');
+margin:17px;
+}
+
+nav dt {
+text-align:center;
+display:block;
+}
+
+nav a:link{
+color:#000000;
+}
+
+nav a:visited{
+color:#000000
+}
+
+nav a:hover {
+color:red;
+}
+
+nav a:active {
+color:red;
+}
+
+/*Article styling. Positioning of the article as well as elements in the article such as h2 and lists are styled below.*/
+article {
+background:#DDDEDC;
+position:absolute;
+left:267px;
+top:160px;
+padding:0px 0px 0px 10px;
+width:79.5%;
+height:100%;
+text-align:left;
+}
+
+article p:first-of-type {
+font-family:Arial;
+color:#000000;
+font-size:18pt;
+line-height:1.0;
+width: 79%;
+}
+
+article h2 {
+font-size: 25pt;
+}
+
+article ul {
+font-family:Arial;
+color:#000000;
+font-size:18pt;
+font-weight: bold;
+}
+
+article li {
+font-family:Arial;
+color:#000000;
+font-size:18pt;
+font-weight:normal;
+}
+
+/*.textstyle is the style for the div class textstyle. There is styling for normal texts and for links.*/
+.textstyle p:first-of-type {
+font-family:Arial;
+color:#000000;
+font-size:18pt;
+line-height:1.0;
+width: 79%;
+}
+
+.textstyle a {
+font-family: Arial;
+font-size:18pt;
+font-style:underline;
+}
+
+.textstyle a:link {
+color:#0000ff;
+}
